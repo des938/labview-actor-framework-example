@@ -1,0 +1,48 @@
+<Configuration>
+  <Target name="My Computer">
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Feed Message.lvclass:Action.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+          <Signal index="677" enabled="0"/>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="715"/>
+          <SignalUID value="483"/>
+          <SignalUID value="488"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Hardware Interface Actor.lvclass:Actor Core.vi:5880001">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="175"/>
+          <SignalUID value="2527"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Update Parameter.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="936"/>
+        </Generic>
+      </Probes>
+    </VI>
+  </Target>
+</Configuration>
