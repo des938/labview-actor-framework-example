@@ -1,9 +1,7 @@
-# labview-actor-framework-example
+# Labview Actor Framework Example
 Example tamagotchi-like app to demonstrate concenpts of Actor Framework in LabVIEW
 
-# Nigel Tamagotchi – LabVIEW Architectures
-
-## Overview
+## Nigel Tamagotchi – LabVIEW Architectures Overview
 A Tamagotchi-style LabVIEW demo used to compare architectures:
 
 - QMH (Queued Message Handler)
@@ -29,8 +27,8 @@ Same functionality, progressively better structure and scalability.
 
 - **QMH** – Simple state machine + queue (tightly coupled)  
 - **Basic Actor** – Message classes + actor abstraction  
-- **Full Actor** – Scalable actor system + hardware interface  
-- **A2A Comms** – Multiple actors communicating (hardware actor)  
+- **Full Actor** – NI Actor Framework   
+- **A2A Comms** – Hardware Interface actor communication
 
 Shared logic lives in **`Shared Utilities`**.
 
