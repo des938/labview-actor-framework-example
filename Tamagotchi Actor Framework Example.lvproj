@@ -105,8 +105,9 @@
 			<Item Name="Tamagotchi Full Actor" Type="Folder">
 				<Item Name="Tamagotchi Full Actor.lvclass" Type="LVClass" URL="../3_Full Actor/Tamagotchi Full Actor Folder/Tamagotchi Full Actor.lvclass"/>
 				<Item Name="Hardware Interface.vi" Type="VI" URL="../3_Full Actor/Tamagotchi Full Actor Folder/Hardware Interface.vi"/>
+				<Item Name="Launch Console.vi" Type="VI" URL="../3_Full Actor/Launch Console.vi"/>
 			</Item>
-			<Item Name="Nigel Tamagotchi Full Actor Main.vi" Type="VI" URL="../3_Full Actor/Nigel Tamagotchi Full Actor Main.vi"/>
+			<Item Name="Nigel Tamagotchi Full Actor Launcher.vi" Type="VI" URL="../3_Full Actor/Nigel Tamagotchi Full Actor Launcher.vi"/>
 		</Item>
 		<Item Name="A2A Comms" Type="Folder">
 			<Item Name="Hardware Interface Actor" Type="Folder">
