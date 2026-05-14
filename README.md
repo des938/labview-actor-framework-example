@@ -19,7 +19,7 @@ Same functionality, progressively better structure and scalability.
 |-------------|--------|
 | QMH | `QMH/Nigel Tamagotchi Main.vi` |
 | Basic Actor | `Basic Actor/Nigel Tamagotchi Basic Actor Main.vi` |
-| Full Actor | `Full Actor/Nigel Tamagotchi Full Actor Main.vi` |
+| Full Actor | `Full Actor/Actor Core.vi` |
 
 ---
 
@@ -43,14 +43,6 @@ Shared logic lives in **`Shared Utilities`**.
 
 ---
 
-## Limitations
- 
-- Minimal error handling  
-- No persistence (state resets on restart)  
-- UI not fully decoupled  
-
----
-
 ## Purpose
 
-Show how architecture—not features—impacts scalability and maintainability in LabVIEW.
+Understand what an actor is in LabVIEW and begin to understand how to use it.
